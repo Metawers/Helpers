@@ -1,6 +1,6 @@
 <?php
 
-use Wers\Helpers;
+use Metawers\Helpers;
 use PHPUnit\Framework\TestCase;
 
 class HydraTest extends TestCase
@@ -36,7 +36,7 @@ class HydraTest extends TestCase
     }
 
     /**
-     * @covers \Wers\Helpers\Hydra::offsetGetString()
+     * @covers \Metawers\Helpers\Hydra::offsetGetString()
      * @throws Exception
      */
     public function testOffsetGetString()
@@ -56,7 +56,7 @@ class HydraTest extends TestCase
     }
 
     /**
-     * @covers \Wers\Helpers\Hydra::offsetGetInt()
+     * @covers \Metawers\Helpers\Hydra::offsetGetInt()
      * @throws Exception
      */
     public function testOffsetGetInt()
@@ -66,7 +66,7 @@ class HydraTest extends TestCase
     }
 
     /**
-     * @covers \Wers\Helpers\Hydra::offsetGetFloat()
+     * @covers \Metawers\Helpers\Hydra::offsetGetFloat()
      * @throws Exception
      */
     public function testOffsetGetFloat()
@@ -76,7 +76,7 @@ class HydraTest extends TestCase
     }
 
     /**
-     * @covers \Wers\Helpers\Hydra::offsetGetBool()
+     * @covers \Metawers\Helpers\Hydra::offsetGetBool()
      * @throws Exception
      */
     public function testOffsetGetBool()
@@ -88,7 +88,7 @@ class HydraTest extends TestCase
     }
 
     /**
-     * @covers \Wers\Helpers\Hydra::offsetGetObject()
+     * @covers \Metawers\Helpers\Hydra::offsetGetObject()
      * @throws Exception
      */
     public function testOffsetGetObject()
@@ -104,7 +104,7 @@ class HydraTest extends TestCase
     }
 
     /**
-     * @covers \Wers\Helpers\Hydra::offsetGetMixed()
+     * @covers \Metawers\Helpers\Hydra::offsetGetMixed()
      * @throws Exception
      */
     public function testOffsetGetMixed()
@@ -120,12 +120,12 @@ class HydraTest extends TestCase
 
 
     /**
-     * @covers \Wers\Helpers\Hydra::__construct()
+     * @covers \Metawers\Helpers\Hydra::__construct()
      * @throws Exception
      */
     public function testConstruct()
     {
-        $this->assertInstanceOf('\Wers\Helpers\Hydra', $this->hydra);
+        $this->assertInstanceOf('\Metawers\Helpers\Hydra', $this->hydra);
     }
 
 }
